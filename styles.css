@@ -34,6 +34,9 @@ header {
     height: 80%;
     width: 33%;
     border: solid 2px yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card2 {
@@ -50,3 +53,8 @@ header {
 
 /* Section for card content */
 
+.rock {
+    height: 80%;
+    width: 80%;
+    border: solid 3px black;
+}
