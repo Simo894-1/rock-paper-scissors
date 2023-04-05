@@ -12,7 +12,7 @@ function getComputerChoice(player) {
     // Check win
     else if (
         (player === "scissors" && computerChoice === "paper") || // Scissors > Paper
-            (player === "rock" && computerChoice === "scissors") || // Rock >scissors
+        (player === "rock" && computerChoice === "scissors") || // Rock >scissors
         (player === "paper" && computerChoice === "rock") // Paper > rock
     ) {
         console.log("Player Wins");
