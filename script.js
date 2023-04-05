@@ -7,7 +7,7 @@ function getComputerChoice(player) {
 
     // Check for a draw
     if (player === computerChoice) {
-        console.log("Draw");
+        alert("Draw");
     }
     // Check win
     else if (
@@ -15,10 +15,10 @@ function getComputerChoice(player) {
         (player === "rock" && computerChoice === "scissors") || // Rock >scissors
         (player === "paper" && computerChoice === "rock") // Paper > rock
     ) {
-        console.log("Player Wins");
+        alert("You won!!");
     }
     // If not computer wins
     else {
-        console.log("Computer Wins");
+        alert("Computer Won!!");
     }
 }
