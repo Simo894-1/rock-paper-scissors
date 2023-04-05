@@ -16,5 +16,37 @@ header {
 }
 
 .title {
-    font-family: 'Roboto';
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 80px;
 }
+
+/* Section for the cards */
+
+.cards {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    border: solid 1px blue;
+    align-items: center;
+}
+
+.card1 {
+    height: 80%;
+    width: 33%;
+    border: solid 2px yellow;
+}
+
+.card2 {
+    height: 80%;
+    width: 33%;
+    border: solid 2px green;
+}
+
+.card3 {
+    height: 80%;
+    width: 33%;
+    border: solid 2px red;
+}
+
+/* Section for card content */
+
