@@ -1,0 +1,1 @@
+This is a rock paper scissors game created, via the ODIN Project course. 
